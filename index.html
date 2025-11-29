@@ -196,13 +196,42 @@ section { opacity:0; transform:translateY(50px); transition: all 0.8s ease-out; 
 <!-- Back to top button -->
 <button id="backToTop">↑</button>
 
-<footer>
-    © 2025 Phòng Khám Đa Khoa VK – All rights reserved.
-    <div>
-        <a href="#">Facebook</a> | <a href="#">Zalo</a> | <a href="#">YouTube</a>
+<footer style="background:#0a84ff; color:#fff; padding:50px 20px; font-size:16px;">
+  <div style="max-width:1200px; margin:auto; display:flex; justify-content:space-between; flex-wrap:wrap; gap:30px;">
+    
+    <!-- Cột 1: Thông tin phòng khám -->
+    <div style="flex:1; min-width:220px;">
+      <h3 style="font-size:20px; margin-bottom:15px;">Phòng Khám Đa Khoa VK</h3>
+      <p>Địa chỉ: 495 Cộng Hòa, Phường 15, Quận Tân Bình, TPHCM</p>
+      <p>Hotline: <strong>035.685.1116</strong></p>
+      <p>Email: info@phongkhamvk.vn</p>
     </div>
-</footer>
+    
+    <!-- Cột 2: Menu nhanh -->
+    <div style="flex:1; min-width:150px;">
+      <h3 style="font-size:20px; margin-bottom:15px;">Menu nhanh</h3>
+      <ul style="list-style:none; padding:0;">
+        <li><a href="#gioithieu" style="color:#fff; text-decoration:none; display:block; margin-bottom:10px;">Giới thiệu</a></li>
+        <li><a href="#dichvu" style="color:#fff; text-decoration:none; display:block; margin-bottom:10px;">Dịch vụ</a></li>
+        <li><a href="#bacsi" style="color:#fff; text-decoration:none; display:block; margin-bottom:10px;">Đội ngũ bác sĩ</a></li>
+        <li><a href="#lienhe" style="color:#fff; text-decoration:none; display:block; margin-bottom:10px;">Liên hệ</a></li>
+      </ul>
+    </div>
+    
+    <!-- Cột 3: Mạng xã hội -->
+    <div style="flex:1; min-width:150px;">
+      <h3 style="font-size:20px; margin-bottom:15px;">Mạng xã hội</h3>
+      <a href="#" style="color:#fff; text-decoration:none; margin-right:15px; font-size:18px;">Facebook</a>
+      <a href="#" style="color:#fff; text-decoration:none; margin-right:15px; font-size:18px;">Zalo</a>
+      <a href="#" style="color:#fff; text-decoration:none; font-size:18px;">YouTube</a>
+    </div>
+    
+  </div>
 
+  <div style="text-align:center; margin-top:30px; font-size:14px; color:rgba(255,255,255,0.8);">
+    © 2025 Phòng Khám Đa Khoa VK – All rights reserved.
+  </div>
+</footer>
 <script>
 // Scroll animation
 const sections = document.querySelectorAll('section');
@@ -246,3 +275,4 @@ document.querySelectorAll('.service-box, .doctor-box').forEach(box=>{
 
 </body>
 </html>
+
